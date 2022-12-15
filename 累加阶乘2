@@ -1,0 +1,15 @@
+
+int main ()
+{
+	int a,b,n,d;
+	int sum=0;
+	scanf ("%d",&n);
+	for (a=1,b=1,d=1;d<=n;d++)
+	{
+	for (;b==d;b++)
+		a=a*b;
+	sum =sum + a;
+	}
+	printf ("%d\n",sum);
+	return 0;
+}
